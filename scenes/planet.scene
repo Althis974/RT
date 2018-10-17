@@ -1,0 +1,79 @@
+#SCENE TEST0
+CAMERA
+{
+    position 0 0 -100
+    rotation 0 0 0
+    lookat 0 0 1
+    focal 1
+}
+
+AA2
+
+OBJECT
+{
+    name PLANE
+    type PLANE
+    rotation 30 30 0
+    position 0 0 200
+    ambient 2
+    specular 50 50 50
+    color 150 255 200
+}
+
+OBJECT
+{
+    name TERRE
+    type SPHERE
+    position -11 8 0
+    rotation 0 0 0
+    ambient 2
+    radius 5
+    specular 50 50 50
+    texture ./texture/earth.bmp
+}
+
+OBJECT
+{
+    name FIREPLANET
+    type SPHERE
+    rotation 0 0 0
+    position 11 8 0
+    ambient 2
+    radius 5
+    specular 50 50 50
+    texture ./texture/fireplanet.bmp
+}
+
+OBJECT
+{
+    name JUPITER
+    type SPHERE
+    rotation 0 0 0
+    position 11 -8 0
+    ambient 2
+    radius 5
+    specular 50 50 50
+    texture ./texture/jupiter.bmp
+}
+
+OBJECT
+{
+    name WALL
+    type SPHERE
+    rotation 0 0 0
+    position -11 -8 0
+    ambient 2
+    radius 5
+    specular 50 50 50
+    texture ./texture/wall.bmp
+}
+
+SPOT
+{
+    ambient 2
+    position 0 0 -50
+    name SPOT0
+    type SPOT
+    specular 255 200 200
+    color 200 200 200
+}
