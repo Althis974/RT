@@ -21,7 +21,7 @@ make
 ```
 
 ```
-./rt scenes/scene_name.scene
+./RT scenes/scene_name.scene
 ```
 
 ## Fonctionnalités
