@@ -29,7 +29,7 @@ make
  <table>
    <tr>
        <td>LEFT CLICK</td>
-       <td>Passer de la sceène à l'interface et inversement</td>
+       <td>Passer de la scène à l'interface et inversement</td>
    </tr>
    <tr>
        <td>UP</td>
