@@ -106,3 +106,7 @@ make
 ### Last but not least
 ![](https://media.giphy.com/media/5zgZUjSL4Pmd6G8gEM/giphy.gif)
 
+## Authors
+[Lossy Roméo](https://github.com/Althis974)
+[Hazette Grégoire](https://github.com/kryme07)
+[Kulhandjian Mathias](https://github.com/Gozelin)
