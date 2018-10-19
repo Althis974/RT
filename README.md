@@ -48,19 +48,31 @@ make
        <td>Déplacer caméra / objet vers la droite</td>
    </tr>
    <tr>
-       <td>A / D</td>
+       <td>+</td>
+       <td>Déplacer caméra / objet vers l'arrière</td>
+   </tr>
+   <tr>
+       <td>-</td>
+       <td>Déplacer caméra / objet vers l'avant</td>
+   </tr>
+   <tr>
+       <td>8 / 2</td>
        <td>Pivoter caméra / objet sur l'axe X</td>
    </tr>
    <tr>
-       <td>W / S</td>
+       <td>4 / 6</td>
        <td>Pivoter caméra / objet sur l'axe Y</td>
    </tr>
    <tr>
-       <td>SCROLL UP / SCROLL DOWN</td>
+       <td>7 / 9</td>
        <td>Pivoter caméra / objet sur l'axe Z</td>
    </tr>
    <tr>
-       <td>+ / -</td>
+       <td>F</td>
+       <td>Changer de filtre</td>
+   </tr>
+   <tr>
+       <td>Page up / Page down</td>
        <td>Faire varier l'anti-aliasing</td>
    </tr>
    <tr>
