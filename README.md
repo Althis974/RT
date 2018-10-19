@@ -108,5 +108,7 @@ make
 
 ## Authors
 [Lossy Roméo](https://github.com/Althis974)
+
 [Hazette Grégoire](https://github.com/kryme07)
+
 [Kulhandjian Mathias](https://github.com/Gozelin)
