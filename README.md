@@ -13,3 +13,95 @@ En revanche, contrairement à d'autres algorithmes de synthèse d'image, elle pe
   Votre objectif est d’être capable, à l’aide de votre programme, de générer des images de synthèse selon la méthode du Ray-Tracing. Ces images de synthèse représentent une scène, vue d’une position et d’un angle spécifiques, définie par des objets géométriques simples, entiers ou partiels, et disposant d’un système d’éclairage.
   
   Le projet comporte une partie obligatoire et de nombreuses options. La partie obligatoire vaut 0 points et les options ne rapportent des points que si la partie obligatoire est complète à 100%. Le projet ne sera validé que si un volume substanciel d’options est présent lors de la soutenance.
+
+## How to
+
+```
+make
+```
+
+```
+./rt scenes/scene_name.scene
+```
+
+## Fonctionnalités
+
+ <table>
+   <tr>
+       <td>LEFT CLICK</td>
+       <td>Sélectionner objet</td>
+   </tr>
+   <tr>
+       <td>RIGHT CLICK</td>
+       <td>Désélectionner objet</td>
+   </tr>
+     <tr>
+       <td>UP</td>
+       <td>Déplacer caméra / objet vers le haut</td>
+   </tr>
+     <tr>
+       <td>LEFT</td>
+       <td>Déplacer caméra / objet vers la gauche</td>
+   </tr>
+     <tr>
+       <td>DOWN</td>
+       <td>Déplacer caméra / objet vers le bas</td>
+   </tr>
+     <tr>
+       <td>RIGHT</td>
+       <td>Déplacer caméra / objet vers la droite</td>
+   </tr>
+       <tr>
+       <td>A / D</td>
+       <td>Pivoter caméra / objet sur l'axe X</td>
+   </tr>
+       <tr>
+       <td>W / S</td>
+       <td>Pivoter caméra / objet sur l'axe Y</td>
+   </tr>
+       <tr>
+       <td>SCROLL UP / SCROLL DOWN</td>
+       <td>Pivoter caméra / objet sur l'axe Z</td>
+   </tr>
+     </tr>
+       <tr>
+       <td>+ / -</td>
+       <td>Faire varier l'anti-aliasing</td>
+   </tr>
+        </tr>
+       <tr>
+       <td>ESC</td>
+       <td>Quitter le programme</td>
+   </tr>
+</table>
+
+## Exemples
+
+### Showcase
+![img](https://i.imgur.com/AZeZWBb.png)
+
+### Sphere World
+![img](https://i.imgur.com/P8zaw6g.png)
+
+### Planet
+![img](https://i.imgur.com/mBQM0oQ.png)
+
+### Plane
+![img](https://i.imgur.com/RnwoybS.png)
+
+### Glock
+![img](https://i.imgur.com/gsizqPg.png)
+
+## Live
+
+### Filters
+![](https://media.giphy.com/media/g07eqj1eI189NG22MG/giphy.gif)
+
+### Pokeball
+![](https://media.giphy.com/media/5jYu1do9s68fyar9Kh/giphy.gif)
+
+### Texture
+![](https://media.giphy.com/media/2rAEVexWLWyYlFUPK1/giphy.gif)
+
+### Last but not least
+![](https://media.giphy.com/media/5zgZUjSL4Pmd6G8gEM/giphy.gif)
