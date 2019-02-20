@@ -115,6 +115,6 @@ make
 ## Authors
 [Lossy Roméo](https://github.com/Althis974)
 
-[Hazette Grégoire](https://github.com/kryme07)
+[Hazette Grégoire](https://github.com/ghazette)
 
-[Kulhandjian Mathias](https://github.com/Gozelin)
+[Kulhandjian Mathias](https://github.com/mkulhand)
