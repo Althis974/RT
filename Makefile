@@ -110,11 +110,11 @@ $(NAME): $(OBJECTS)
 	@echo "\033[42m\033[30m"
 	@sh $(LOADF) $(LOADIR) $@ e n $(NAME)
 	@echo "\033[0m"
-	@gcc -I $(HEADER) $(OBJECTS) $(LIB_LNK) $(LIBX_LNK) $(LIBAL_LNK) \
+	@gcc $(FLAGS) -I $(HEADER) $(OBJECTS) $(LIB_LNK) $(LIBX_LNK) $(LIBAL_LNK) \
 	$(LIBMP_LNK) $(FLAGX) -o $@
 	@printf "\n\033[1m\033[34m\t\t\t\t⥷ $@⭃\t\tProject\t\t\033[0m \033[1m⟿  \
 		\033[32mCreation Success\033[0m ✅\n"
 
 build/%.o: srcs/%.c $(HEADER) | build
 	@sh $(LOADF) $(LOADIR) $< o y
-	@gcc $(LIB_INC) -I $(HEADER) -c $< -o $@
+	@gcc $(FLAGS) $(LIB_INC) -I $(HEADER) -c $< -o $@
