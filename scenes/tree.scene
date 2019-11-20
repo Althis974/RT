@@ -9,7 +9,7 @@ CAMERA
 
 OBJECT
 {
-    name BIATCH
+    name TREE
     type COMPOSED
 	src obj/lowpolytree.obj
     position 0 0 0
