@@ -110,7 +110,7 @@ int				fetch_obj(char *path, t_obj **obj)
 	if ((fd = open(path, O_RDONLY)) < 0)
 		return (0);
 	if (!(get_obj_vertex(fd, cnt[1], obj, &polydata[0])) ||
-		(!(get_obj_normal(fd, cnt[2], obj, &polydata[1]))) ||
+		(!(get_obj_normal(fd, cnt[2], &polydata[1]))) ||
 		(!(set_obj_face(fd, obj, polydata, cnt))))
 		return (0);
 	(*obj)->npoly = cnt[0];

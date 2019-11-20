@@ -380,8 +380,7 @@ int					calc_cube(t_obj *obj);
 int					calc_edge(t_poly *poly, int calcnormal, int realloc);
 int					get_obj_data(char *path, int *vertex, int *normal,
 									int *face);
-int					get_obj_normal(int fd, int normal, t_obj **obj,
-									t_vec3 ***n);
+int					get_obj_normal(int fd, int normal, t_vec3 ***n);
 int					get_obj_vertex(int fd, int vertex, t_obj **obj,
 									t_vec3 ***s);
 void				free_poly(t_obj *obj);

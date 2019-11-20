@@ -42,7 +42,7 @@ int				get_obj_vertex(int fd, int vertex, t_obj **obj, t_vec3 ***s)
 	return (1);
 }
 
-int				get_obj_normal(int fd, int normal, t_obj **obj, t_vec3 ***n)
+int				get_obj_normal(int fd, int normal, t_vec3 ***n)
 {
 	int		i;
 	char	*line;
